@@ -15,7 +15,7 @@ public class OpenWeatherMap {
     public void main() {
 
         try {
-            URL url = new URL("https://api.openweathermap.org/data/2.5/onecall?&lat=-6.2146&lon=106.8451&exclude=current%2Cminutely%2Chourly%2Calerts&units=metric&appid=73e6d8bf2a4280074fd7f525342d500a");
+            URL url = new URL("https://api.openweathermap.org/data/2.5/onecall?&lat=-6.2146&lon=106.8451&exclude=current%2Cminutely%2Chourly%2Calerts&units=metric&appid=");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             conn.connect();
